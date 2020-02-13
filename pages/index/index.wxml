@@ -89,3 +89,4 @@
 <view>
 <image src="../../image/2.jpg" mode="widthFix" style="width:100%" />
 </view>
+<navigator url="../index2/index2" open-type="navigate">地图</navigator>
