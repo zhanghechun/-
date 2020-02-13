@@ -1,0 +1,14 @@
+<button type="default" >default</button>
+<button type="primary" >primary</button>
+<button type="warn" size="mini">warn</button>
+<radio-group>
+<radio checked>王者荣耀</radio>
+<radio>和平精英</radio>
+<radio>微信小程序</radio>
+</radio-group>
+<checkbox-group>
+<checkbox>黄药师</checkbox>
+<checkbox checked="{{true}}">欧阳锋</checkbox>
+<checkbox>段智兴</checkbox>
+<checkbox>洪七公</checkbox>
+</checkbox-group>

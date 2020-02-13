@@ -1,0 +1,22 @@
+.col-class{
+  background-color:cornflowerblue;
+}
+.findmsg{
+height: 23px;
+font-display: cornflowerblue;
+border: cornflowerblue 1px solid;
+}
+.menu{
+background: cornflowerblue;
+}
+.menu_item{
+  margin: 0px 10px 0px 10px;
+}
+.lunbo{
+  width: 100%;
+  margin: centor;
+}
+.lunbo image{
+  width: 100%;
+ 
+}

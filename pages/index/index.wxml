@@ -1,0 +1,91 @@
+<i-row>
+    <i-col span="3" i-class="col-class">
+    <i-icon type="interactive" size="40" color="white"/>
+    </i-col>
+    <i-col span="3" i-class="col-class">
+   <i-icon type="customerservice_fill" size="40" color="white"/>
+    </i-col>
+    <i-col span="15" i-class="col-class">
+    <i-input value="{{ value }}" placeholder="搜功能 搜产品" i-class="findmsg" />
+    </i-col>
+    <i-col span="3" i-class="col-class">
+    <i-icon type="mine_fill" size="40" color="white" bindtap="tomine"/>
+    </i-col>
+</i-row>
+<view i-class="menu">
+  <i-grid i-class="menu_item">
+      <i-grid-item  >
+          <i-grid-icon>
+           <i-icon type="transaction_fill" size="35" />
+          </i-grid-icon>
+          <i-grid-label>结构性存款</i-grid-label>
+      </i-grid-item>
+      <i-grid-item>
+          <i-grid-icon>
+           <i-icon type="financial_fill" size="35"/>
+          </i-grid-icon>
+          <i-grid-label>贷款</i-grid-label>
+      </i-grid-item>
+      <i-grid-item>
+          <i-grid-icon>
+           <i-icon type="financial_fill" size="35" />
+          </i-grid-icon>
+          <i-grid-label>工资查询</i-grid-label>
+      </i-grid-item>
+      <i-grid-item>
+          <i-grid-icon>
+           <i-icon type="financial_fill" size="35" />
+          </i-grid-icon>
+          <i-grid-label>医保服务</i-grid-label>
+      </i-grid-item>
+  </i-grid>
+  <i-grid i-class="menu_item">
+      <i-grid-item  >
+          <i-grid-icon>
+           <i-icon type="financial_fill" size="35" />
+          </i-grid-icon>
+          <i-grid-label>信用卡</i-grid-label>
+      </i-grid-item>
+      <i-grid-item>
+          <i-grid-icon>
+            <i-icon type="redpacket_fill" size="35"/>
+          </i-grid-icon>
+          <i-grid-label>无卡取款</i-grid-label>
+      </i-grid-item>
+      <i-grid-item>
+          <i-grid-icon>
+           <i-icon type="financial_fill" size="35" />
+          </i-grid-icon>
+          <i-grid-label>热门活动</i-grid-label>
+      </i-grid-item>
+      <i-grid-item>
+          <i-grid-icon>
+            <i-icon type="switch" size="35" />
+          </i-grid-icon>
+          <i-grid-label>全部</i-grid-label>
+      </i-grid-item>
+  </i-grid>
+</view>
+<view >
+  <swiper class="lunbo" indicator-dots="true" autoplay="true" interval="5000" duration="1000">
+    <block wx:for="{{movies}}" wx:for-index="index">
+      <swiper-item>
+         <image src="{{item.url}}" /> 
+      </swiper-item>
+    </block>
+  </swiper>
+</view>
+<view>
+  <text selectable="{{true}}" decode="{{false}}">
+    这段话长按可以复制——普&nbsp;通
+  </text>
+</view>
+<view>
+<navigator url="../index1/index1" open-type="navigate">这是跳转到日志的链接</navigator>
+</view>
+<view>
+<rich-text nodes="{{nodes}}" bindtap="tap"></rich-text>
+</view>
+<view>
+<image src="../../image/2.jpg" mode="widthFix" style="width:100%" />
+</view>
